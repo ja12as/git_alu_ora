@@ -52,7 +52,7 @@ nav a:hover{
 border-color: #a07f3e; 
 }
 .productos li:active{/*active, cuando un elemento está siendo activado por el usuario*/
-    border-color: #088c19;
+    border-color: #0b4d14;
 }
 
 .productos h2{
