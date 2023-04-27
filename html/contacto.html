@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/productos.css">
+    <title>contacto - Barberia Alura</title>
+</head>
+<body>
+    
+    <header>
+        <div class="caja">
+            <h1> <img src="../images/logo.png" alt="Logo de la Barberia Alura"></h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html" target="_blank" rel="noopener noreferrer">Home </a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+
+            <label for="correo">Correo Electronico</label>
+            <input type="email" id="correo"class="input-padron" 
+            required placeholder="email@dominio.com">
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono"class="input-padron"
+            required required placeholder="(xx) xxx xxx xx">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron" required></textarea><!-- El textarea, para entradas de texto de más de una fila. -->
+
+            <fieldset>
+                <legend>¿Como le gustaria que lo comntactemos?</legend>
+                <label for="radio-email">  <input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+            
+                <label for="radio-telefono">  <input type="radio" name="contacto"  value="
+                telefono" id="radio-telefono">Telefono</label>
+
+                <label for="radio-whatsapp">  <input type="radio" name="contacto"  value="whatsapp
+                " id="radio-whatsapp" checked>WhatsApp</label>
+            
+            </fieldset>
+            <fieldset>
+                <legend>¿En cual horario quiere ser atendido?</legend>
+
+                <!-- El select, que es selector, un campo de selección de un ítem, y el option, que representa cada opción del selector. -->
+
+                <select name="
+                " id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </fieldset>
+        
+
+            <label ><input type="checkbox" checked>¿Le gustaria recibir novedades de la Barberia Alura?</label>
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+
+        </form>
+        <!-- La etiqueta table, representa la tabla. -->
+        <table>
+            <!-- La etiqueta thead, representa el encabezado de la tabla. -->
+            <thead>
+                <!-- La etiqueta tr, representa la fila de la tabla. -->
+                <tr>
+                    <!-- La etiqueta th, representa la celda del encabezado de la tabla. -->
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <!-- La etiqueta tbody, representa el cuerpo de la tabla. -->
+            <tbody>
+                <tr>
+                    <!-- La etiqueta td, representa la celda de la tabla. -->
+                    <td>Lunes</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
+    </main> 
+    <footer>
+        <img src="../images/logo-blanco.png" alt="Logo de la Barberia Alura">
+        <p class="Copyright"> &copy Copyright Barberia Alura - 2023</p>
+    </footer>
+</body>
+</html>
